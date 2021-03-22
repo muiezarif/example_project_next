@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Welcome next app</title>
-        <meta name="description" content="Welcome to text nextjs SEO"/>
+        <meta property="description" content="Welcome to text nextjs SEO"/>
       </Head>
     </div>
   )

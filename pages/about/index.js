@@ -7,7 +7,7 @@ class about extends Component {
             <div>
                 <Head>
                     <title>About Us</title>
-                    <meta name="description" content="Welcome to text nextjs SEO About us page"/>
+                    <meta property="description" content="Welcome to text nextjs SEO About us page"/>
                 </Head>
                 About page
             </div>
