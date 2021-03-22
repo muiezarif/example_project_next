@@ -1,12 +1,12 @@
 import React from "react"
 import Head from "next/head";
-
+import { NextSeo } from 'next-seo';
 export default function index() {
     return (<div>
-        <Head>
-            <title>Our-Services</title>
-            <meta property="description" content="Welcome to text nextjs SEO page our services"/>
-        </Head>
+        <NextSeo
+            title="Our-Services"
+            description="Welcome to text nextjs SEO page our services."
+        />
         Our Services
     </div>)
 }

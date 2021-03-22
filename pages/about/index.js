@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import Head from "next/head";
-
+import { NextSeo } from 'next-seo';
 class about extends Component {
     render() {
         return (
             <div>
-                <Head>
-                    <title>About Us</title>
-                    <meta property="description" content="Welcome to text nextjs SEO About us page"/>
-                </Head>
+                <NextSeo
+                    title="About Us"
+                    description="Welcome to text nextjs SEO About us page."
+                />
                 About page
             </div>
         );

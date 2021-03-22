@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import { NextSeo } from 'next-seo';
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Welcome next app</title>
-        <meta property="description" content="Welcome to text nextjs SEO"/>
-      </Head>
+        <NextSeo
+            title="Welcome next app"
+            description="Welcome to text nextjs SEO."
+        />
     </div>
   )
 }
