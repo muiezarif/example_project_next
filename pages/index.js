@@ -7,6 +7,10 @@ export default function Home() {
         <NextSeo
             title="Welcome next app"
             description="Welcome to text nextjs SEO."
+            openGraph={{
+             title:"Welcome next app",
+             description:"Welcome to text nextjs SEO."
+            }}
         />
     </div>
   )

@@ -6,6 +6,10 @@ export default function index() {
         <NextSeo
             title="Our-Services"
             description="Welcome to text nextjs SEO page our services."
+            openGraph={{
+                title:"Our-Services",
+                description:"Welcome to text nextjs SEO page our services."
+            }}
         />
         Our Services
     </div>)
